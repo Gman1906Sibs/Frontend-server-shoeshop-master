@@ -60,6 +60,7 @@ const productSchema = mongoose.Schema(
   },
   {
     timestamps: true,
+    autoCreate: true,
   }
 );
 
